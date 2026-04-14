@@ -1,0 +1,303 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    background-color: black;
+    color: white;
+
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    background-color: black;
+    border-radius: 1rem;
+    height: 100vh;
+    width: 350px;
+    margin-right: 0.5rem;
+
+}
+
+.main-content {
+    background-color: #141313;
+    overflow: auto;
+    flex: 1;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+
+.music-player {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar {
+    height: 100px;
+    border-radius: 1rem;
+    background-color: #1a1919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+    margin: 0.3rem;
+}
+
+.nav-option i {
+    font-size: 1.4rem;
+}
+
+.nav-option a {
+    font-size: 1.2rem;
+    padding: 0.5rem 0.75rem;
+
+}
+
+.nav-option {
+    margin: 0.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option:hover {
+    opacity: 1;
+}
+
+.options img {
+    height: 1.5rem;
+}
+
+.lib-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons i {
+    margin: 0.2rem;
+    opacity: 0.7;
+    font-size: 1.2rem;
+}
+
+.icons i:hover {
+    opacity: 1;
+}
+
+.library {
+    height: 100%;
+    background-color: #1a1919;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+}
+
+.box {
+    background-color: #323131;
+    height: 9rem;
+    margin: 0.75rem 1.75rem 0;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem;
+}
+
+.box-p1 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.box-p2 {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.badge {
+    border: none;
+    background-color: #fff;
+    font-weight: 700;
+    height: 2rem;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    margin-top: 1.25rem;
+    width: fit-content;
+}
+
+.sticky-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1919;
+    height: 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.sticky-nav-icons {
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.sticky-nav-options {
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    margin-top: 0.4rem;
+    margin-right: 1rem;
+}
+
+.sticky-nav-options button {
+    margin: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+    .hide {
+        display: none;
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #323131;
+    width: 200px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.card-info {
+    opacity: 0.8;
+}
+
+.dog {
+    background-color: black;
+    color: white;
+}
+
+.break {
+    height: 200px;
+}
+
+.music-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first {
+    width: 25%;
+
+}
+
+.play-bar {
+    width: 50%;
+
+}
+
+.playbar-icons {
+    width: 25%;
+    background-color: red;
+}
+
+.play-icons {
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: 0.7;
+}
+
+.play-icons:hover {
+    opacity: 1;
+    height: 1.1rem;
+}
+
+.upper-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 0.5rem;
+}
+
+.song {
+    height: 3.5rem;
+    margin: 0.2rem;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0rem;
+    font-weight: 550;
+}
+
+.song-icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+}
+
+.icoons {
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+
+.icoons:hover {
+    opacity: 1;
+    font-size: 1.85rem;
+}
+
+.range {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input[type=range] {
+	-webkit-appearance: none;
+	height: 0.2rem; /* pick your own value */
+	padding: 0;	
+    margin-top: 0.5rem;
+    border-radius: 100px;
+    width:50%;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+	/* your slider styles */
+}
+
+input[type=range]::-webkit-slider-thumb {
+	/* -webkit-appearance: none; */
+	box-sizing: content-box;
+    
+	/* your thumb styles */
+}
+input[type=range]::-moz-range-thumb {
+    background-color: rgb(47, 150, 92);
+	/* again your thumb styles */
+}
