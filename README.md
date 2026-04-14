@@ -9,8 +9,8 @@ This project replicates the basic UI of Spotify with static styling.
 - Music player UI
 
 ## 📸 Screenshots
-![Home page](assets\Screenshot 2026-04-15 014646.png)
-![Trens recommendation](assets\Screenshot 2026-04-15 014807.png)
+![Home page](asset\Screenshot 2026-04-15 014646.png)
+![Trends recommendation](asset\Screenshot 2026-04-15 014807.png)
 
 ## 🛠 Technologies Used
 - HTML
